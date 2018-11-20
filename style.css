@@ -1,0 +1,22 @@
+.carousel-inner > .item {
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-brand {
+    height: 80px;
+    line-height: 50px;
+}
+.navbar-nav>li>a {
+    height: 80px;
+    line-height: 50px;
+}
+
+.container {
+  font-family: "Georgia";
+}
+.nav {
+  font-size: 20px;
+  color: white;
+}
