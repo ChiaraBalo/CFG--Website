@@ -3,20 +3,111 @@
   background-size: cover;
   background-position: center;
 }
-
+.navbar {
+height: 70px;
+background-color: #ffffff;
+}
+.nav {
+  height:20px;
+  line-height:20px;
+  font-size:20px;
+  margin-left:10px;
+  margin-top: 15px;
+}
 .navbar-brand {
-    height: 80px;
-    line-height: 50px;
-}
-.navbar-nav>li>a {
-    height: 80px;
-    line-height: 50px;
+height:20px;
+line-height:inherit;
+font-size:40px;
 }
 
-.container {
-  font-family: "Georgia";
+body {
+  font-family: 'Open Sans Condensed','Georgia';
+}
+h3 {
+font-size: 30px;
+}
+.col-md-12 h4 {
+  color: rgb(244,133,66);
+  font-size: 50px;
+  margin: 60px;
 }
 .nav {
   font-size: 20px;
   color: white;
+}
+.col-md-6 ul {
+  margin: 130px;
+  font-size: auto;
+}
+.col-md-6 {
+font-size: 20px;
+}
+.counter-text {
+  font-size:20px;
+}
+.glyphicon p {
+  font-size: 50px;
+}
+.icons {
+color: rgb(244,133,66);
+font-size: 20px;
+border: auto;
+position: center;
+}
+.counter-text {
+color: black;
+}
+.col-md-3 {
+  padding:10px;
+  position: centre;
+}
+.icons li {
+  margin: 15px;
+ }
+.col-md-4 img {
+  width:100%;
+  height:250px;
+  left: 0px;
+}
+.text-change {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: inline-block;
+}
+.text-change img{
+  width:100%;
+  height:250px;
+  border-radius:4px;
+  transition:.3s;
+}
+.text-change:hover img{
+  filter: blur(2px) brightness(50%);
+  box-shadow: 0 0 16px cyan;
+}
+.text-change :not(img){
+  position:absolute;
+  top:30%;
+  z-index:1;
+  color:#fff;
+  text-align:center;
+  width:100%;
+  opacity:0;
+  transition:.3s;
+}
+.text-change h3{
+  top: 50%;
+}
+.text-change:hover :not(img){
+  opacity: 1;
+}
+.contact-form {
+background-color: black;
+margin:40px;
+padding: 50px;
+}
+.form-control {
+  height: auto;
+  width: 400px;
+  margin-top:30px
 }
