@@ -72,15 +72,6 @@
                </div>
             </div>
          </div>
-         <!-- Controls -->
-         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-         <span class="sr-only">Previous</span>
-         </a>
-         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-         <span class="sr-only">Next</span>
-         </a>
       </div>
       <div class="container">
       <div class="row">
@@ -110,39 +101,49 @@
       <hr>
       <div class= "row">
          <div class="col-md-12 text-center">
+           <div class="scary-facts">
             <h4  id="Facts"> Scary facts about fast fashion </h4>
          </div>
       </div>
       <div class="row">
          <div class="col-md-3">
-            <span style="font-size: 60px; color: rgb(244,133,66); margin-left:80px">
+            <span style="font-size: 60px; color: rgb(244,133,66);margin-left:30%">
                <i class="fas fa-tint"></i>
                <p> 2700 </p>
             </span>
-            <span class="counter-text"> <b>Litres of water </b> needed to make one cotton shirt </span>
+            <div class="counter-text">
+            <span> <b>Litres of water </b> needed to make one cotton shirt </span>
          </div>
+       </div>
          <div class="col-md-3">
-            <span style="font-size: 60px; color: rgb(244,133,66); margin-left:80px">
+            <span style="font-size: 60px; color: rgb(244,133,66);margin-left:30%">
                <i class="fas fa-female"></i>
                <p> 35 </p>
             </span>
-            <span class="counter-text"> <b>The average life </b> expectancy of a non-organic cotton farmer in India due to chemical exposure on the job. </span>
+            <div class="counter-text">
+            <span> <b>The average life expectancy </b> of a non-organic cotton farmer in India due to chemical exposure on the job. </span>
          </div>
+       </div>
          <div class="col-md-3">
-            <span style="font-size: 60px; color: rgb(244,133,66); margin-left:80px">
+            <span style="font-size: 60px; color: rgb(244,133,66);margin-left:30%">
                <i class="fas fa-male"></i>
                <p> 40 </p>
             </span>
-            <span class="counter-text"> <b>Millions of </b> garment workers around the world today, many facing unsafe and unethical work conditions </span>
+            <div class="counter-text">
+            <span> <b>Millions of garment workers </b> around the world today, many facing unsafe and unethical work conditions </span>
          </div>
+       </div>
          <div class="col-md-3">
-            <span style="font-size: 60px; color: rgb(244,133,66); margin-left:80px">
+            <span style="font-size: 60px; color: rgb(244,133,66);margin-left:30%">
                <i class="fas fa-tshirt"></i>
                <p> 60 </p>
             </span>
-            <span class="counter-text"> <b>% of all clothing </b> produced that ends up in incinerators or landfills within 1 year of being made. </span>
+            <div class="counter-text">
+            <span> <b>% of all clothing </b> produced that ends up in incinerators or landfills within 1 year of being made. </span>
          </div>
       </div>
+    </div>
+    </div>
       <hr>
       <div class="row">
          <div class="col-md-12 text-center">
@@ -211,19 +212,18 @@
                   <textarea class="form-control" rows="5" name="message" placeholder="Message"> </textarea>
                </div>
                <div class="col-mid-12">
-                  <button id="submit" type="submit" name="submit">
+                  <button id="submit" type="submit" name="submit" onclick="myFunction()">
                   <a href="mailto:chiara.balosetti@gmail.com"> Send Message </a></button>
                </div>
             </form>
          </div>
+
+         <script>
+        function myFunction (){
+          alert("Your email it's on its way!");
+        }
+         </script>
       </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
-      <script>
-      $(document).ready(function(){
-        $("").click(function(){
-          alert("Your email is on its way!");
-        });
-      });
-      </script>
    </body>
