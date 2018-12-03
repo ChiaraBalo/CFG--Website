@@ -1,1 +1,1 @@
-alert("This is a test message");  
+alert("This is a test message");
