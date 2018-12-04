@@ -123,8 +123,24 @@ padding:50px;
   width: 400px;
   margin-top:30px
 }
+.btn-facebook {
+  color: blue;
+}
+.btn-facebook:hover {
+  color: orange;
+}
+.btn-twitter {
+  color: blue;
+}
+.btn-twitter:hover {
+  color: orange;
+}
+.btn-pinterest{
+  color: blue;
+}
+.btn-pinterest:hover {
+  color: orange;
+}
 #submit {
 align-self:auto;
-
-
  }
