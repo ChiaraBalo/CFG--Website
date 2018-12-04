@@ -25,3 +25,16 @@ $(document).ready(function(){
         $("btn-pinterest").css("background-color", "lightgray");
     });
 });
+
+$('#heart').ready(function(event) {
+    $.mouseenter(function(){
+      $.css("background-color", "red");
+    });
+}
+$(document).ready(function(){
+    $("#heart").mouseenter(function(){
+        $("#heart").css("background-color", "red");
+    });
+    $("#heart").mouseleave(function(){
+        $("#heart").css("background-color", "orange");
+    });
