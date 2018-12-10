@@ -185,6 +185,20 @@ align-self:auto;
 	margin: 10px auto 10px 20px;
 }
 
+.fa-tint:hover {
+  color: red;
+}
+.fa-male:hover {
+  color: red;
+}
+
+.fa-female:hover {
+  color: red;
+}
+
+.fa-tshirt:hover {
+  color: red;
+}
 
 /* media queries for mobile */
 
@@ -235,6 +249,7 @@ align-self:auto;
 		margin-left: -15%;
 	}
 }
+
 
 
 /*css for footer*/
