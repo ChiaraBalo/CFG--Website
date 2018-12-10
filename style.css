@@ -123,24 +123,22 @@ padding:50px;
   width: 400px;
   margin-top:30px
 }
-.btn-facebook {
-  color: blue;
+
+.btn-fb:hover {
+  background-color: orange;
 }
-.btn-facebook:hover {
-  color: orange;
-}
-.btn-twitter {
-  color: blue;
-}
+
 .btn-twitter:hover {
-  color: orange;
+  background-color: orange;
 }
-.btn-pinterest{
-  color: blue;
-}
-.btn-pinterest:hover {
-  color: orange;
+
+.pinterestbtn:hover {
+
+  background-color: orange;
 }
 #submit {
 align-self:auto;
+ }
+ .fa-hand-holding-heart:hover {
+   color: red;
  }
