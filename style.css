@@ -200,6 +200,8 @@ align-self:auto;
   color: red;
 }
 
+
+
 /* media queries for mobile */
 
 @media (max-width:768px) {
